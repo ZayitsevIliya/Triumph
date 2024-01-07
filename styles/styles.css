@@ -110,3 +110,35 @@ body {
   background: #000000c8;
   color: #4b4b4bce;
 }
+
+.page-2 {
+  margin-top: 150px;
+  height: 930px;
+}
+
+.title-page-2 {
+  font-size: 3vw;
+  text-align: center;
+  margin-top: auto;
+}
+
+.content-page-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text-about-us {
+  text-align: left;
+  width: 42vw;
+  font-size: 1.5vw;
+  margin-left: 3em;
+  padding-top: 2em;
+}
+
+.list-about-us {
+  list-style-type: "- ";
+}
+
+.img-about-us {
+  width: 50%;
+}
