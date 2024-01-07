@@ -11,12 +11,19 @@ body {
   padding: 0;
 }
 
-.main-conteiner,
+.main-conteiner {
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .link-text {
   color: #fff;
   font-family: Montserrat, sans-serif;
   text-decoration: none;
-  font-size: 1.2vw;
 }
 
 .link-text:hover {
@@ -25,28 +32,81 @@ body {
 
 .title {
   font-size: 4vw;
-  margin-left: 0.4em;
+  margin-left: 1em;
+  margin-top: 10px;
 }
 
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.navigation {
-  width: 100%;
+.navigator {
+  width: 56vw;
+  padding-left: 35px;
+  margin-bottom: 0px;
 }
 
 .list-item {
   list-style-type: none;
   display: inline;
-  margin: 20px;
+  font-size: 1.2vw;
+  margin-left: 3%;
+}
+
+.list-item:first-of-type {
+  margin-left: 0px;
 }
 
 .address {
-  width: 15%;
-  width: 15%;
+  width: 16vw;
   display: block;
-  margin-left: auto;
-  margin-right: 27px;
+  padding-left: 1%;
+  margin-right: 2%;
+  font-size: 1.1vw;
+}
+
+.title-page-1 {
+  width: 37vw;
+  margin-left: 1em;
+  font-size: 3.68vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content-page-1 {
+  width: 48vw;
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 0;
+  font-size: 2vw;
+}
+
+.idea {
+  width: 14vw;
+  height: 3vw;
+  border-radius: 50px;
+  margin-left: 4em;
+  margin-top: 2.5em;
+  color: #000000;
+  font-family: Montserrat, sans-serif;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 1px solid #fff;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(255, 255, 255, 0.5);
+}
+
+.idea:hover {
+  border: 1px solid #000000;
+  background: #ffffffce;
+  box-shadow: none;
+}
+
+.idea:active {
+  background: #000000c8;
+  color: #4b4b4bce;
 }
