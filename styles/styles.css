@@ -1,23 +1,33 @@
 html,
 body {
   background-color: #181715;
-  background-image: url(../images/Background_new.png);
-  background-origin: border-box;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100%;
-  width: 100%;
   margin: 0;
   padding: 0;
 }
 
 .main-conteiner {
+  height: 100%;
+  width: 100%;
   color: #fff;
   font-family: Montserrat, sans-serif;
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+}
+
+.page-1 {
+  background-image: url(../images/Background_new.png);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 140px;
+  height: 800px;
 }
 
 .link-text {
@@ -112,11 +122,11 @@ body {
 }
 
 .page-2 {
-  margin-top: 150px;
+  margin-top: 0px;
   height: 930px;
 }
 
-.title-page-2 {
+.title-page {
   font-size: 3vw;
   text-align: center;
   margin-top: auto;
@@ -141,4 +151,33 @@ body {
 
 .img-about-us {
   width: 50%;
+}
+
+.page-3 {
+  height: 930px;
+}
+
+.title-page-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+}
+
+.title-page-3 h3 {
+  margin-top: 40px;
+}
+
+.partners {
+  padding-top: 250px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.partners td {
+  width: 33.33%;
 }
